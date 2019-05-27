@@ -40,5 +40,7 @@ Click->Deploy
 Follow the logstream and explain what is happening
 
 ## CLEAN UP 
+```
 cf delete –r –f <appname> 
+```  
 Figure out how to delete a service, hint cf help -a
