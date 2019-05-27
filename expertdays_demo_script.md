@@ -8,9 +8,13 @@ cf help -a
 
 ## Demo
 Login to CAP
+
 cf login -a  https://api.cap.suselinux.info --skip-ssl-validation -u <USERNAME>
+  
 cf create-space test
+
 cf target -o "YOURORG" -s "test"
+
 
 Demo 1, deploy DizzyLizard from git
 Login to stratos https://stratos.cap.suselinux.info
